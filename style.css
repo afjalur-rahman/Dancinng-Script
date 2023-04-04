@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #777;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.header-common{
+    padding-top: 80px;
+}
+#Navigation-bar{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,121,1) 21%, rgba(0,212,255,1) 100%);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+#Navigation-bar img{
+    height: 30px;
+    padding-left: 20px;
+}
+#Navigation-bar .nav-item{
+    padding: 0 20px 0px 20px;
+}
+#Navigation-bar .nav-link{
+    color: #fff;
+    font-weight: bold;
+}
+.nav-item .active{
+    border-bottom: 2px solid #fff;
+}
+ .nav-item :hover{
+    border-bottom: 2px solid #fff;
+}
+.fa-bars{
+    color: #fff !important;
+    font-size: 40px !important;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+#banner{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,121,1) 21%, rgba(0,212,255,1) 100%);
+}
+#banner .title{
+    padding-top: 100px;
+    color: #fff;
+}
+#banner .sub-title{
+    padding-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#banner .play-btn{
+    width:45px ;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+#banner .banner-img{
+    margin-top: 50px;
+}
+.wave1{
+    width: 100%;
+}
+
+.accordion .card .btn{
+    text-decoration: none !important;
+}
+.serv{
+    margin:4px 4px 10px;
+    padding: 20px 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: .5s;
+}
+.serv i{
+    font-size: 30px;
+    background-color:#1266F1;
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+}
+.serv:hover{
+    transform: translateY(-10px);
+}
+
+#our-team .team img{
+    height:160px;
+    width: 160px;
+    border: 2px solid #4285F4;
+    padding: 2px;
+    border-radius: 50%;
+    margin: 10px 0;
+
+}
+#our-team .team{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+    margin-bottom: 50px;
+}
+.contact-form{
+    padding: 20px;
+}
+
+
+@media only screen and (max-width:992px){
+    .mobile{
+        padding-bottom: 80px;
+    }
+}
+
